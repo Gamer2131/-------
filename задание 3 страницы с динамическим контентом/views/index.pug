@@ -1,0 +1,22 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title #{title}
+        style
+            include ../static/style.css
+    body
+        header
+            h1 #{title}
+            nav
+                ul
+                    li
+                        a(href="/") Главная
+                    li
+                        a(href="/quests") to-do list
+        footer
+            hr
+            h4 Контактная информация:
+            p Обращайтесь по телефону: +7 344 434 43 22
+            p Copyright 2024

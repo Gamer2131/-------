@@ -1,0 +1,29 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title #{title}
+        style
+            include ../static/style.css
+    body
+        header
+            h1 Дневник Совершенства|Саморазвития
+            nav
+                ul
+                    li
+                        a(href="/") Главная
+                    li
+                        a(href="/blok") Статьи
+                    li
+                        a(href="/contacts") Контакты
+
+        main
+            section.main-content
+                h2 Контактная информация
+                p Обращайтесь по телефону: +7 213 11 313 32321
+                p Email: goil1000-7pug.ru
+                
+        footer
+            hr
+            p Copyright 2024
